@@ -1,0 +1,124 @@
+body{
+    min-height: 100%;
+    background: linear-gradient(#49a09d, #5f2c82);
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 40px;
+}
+input {outline: none;}
+button{outline: none;}
+a{color:#181818; !important}
+a:hover{color:#045b7b; !important  }
+
+ #login-form  input{
+    max-width: 95%;
+    margin: auto;
+    padding: 6px 20px;
+    border-radius: 10px;
+    border: 1px solid #311c46;
+    left: 50%;
+    display: flex;
+}
+#login-form input:hover{
+    box-shadow: 0 0 10px #311c46;
+    transition: 300ms ease all;
+    transition: box-shadow 300ms ease-in-out, color 300ms 0 ease-in-out, opacity 300ms ease-in-out;
+}
+
+#register-form input{
+    max-width: 95%;
+    margin: auto;
+    padding: 6px 20px;
+    border-radius: 10px;
+    border: 1px solid #311c46;
+    left: 50%;
+    display: flex;
+    line-height: 20px;
+}
+
+#register-form input:hover{
+    box-shadow: 0 0 10px #311c46;
+    transition: 300ms ease all;
+    transition: box-shadow 300ms ease-in-out, color 300ms 0 ease-in-out, opacity 300ms ease-in-out;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 20px #311c46;
+}
+.buttonSing:hover{
+    box-shadow: 0 0 10px #311c46;
+}
+.buttonSing {
+    margin-bottom: 10px;
+    height: 45px;
+    padding: 8px 30px;
+    background: #ffffff;
+    border: 1px solid white;
+    color: #311c46;
+    text-transform: uppercase;
+    transition: 300ms ease all;
+    transition: box-shadow 300ms ease-in-out, color 300ms 0 ease-in-out, opacity 300ms ease-in-out;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#products-table{
+    margin-top: 20px;
+    color:#181818;
+}
+#comments{
+    color:#ffffff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.inputComment{
+    max-width: 95%;
+    margin: auto;
+    padding: 3px 20px;
+    border-radius: 10px;
+    border: 1px solid #528294;
+    left: 50%;
+    color: #181818;
+}
+.classButton{
+    margin-top: 10px;
+    padding: 8px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    transition: 300ms ease all;
+    transition: box-shadow 300ms ease-in-out, color 300ms 0 ease-in-out, opacity 300ms ease-in-out;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-right: 20px;
+}
+
+.classButton:hover{
+    box-shadow: 0 0 10px #045b7b;
+    transition: 300ms ease all;
+    transition: box-shadow 300ms ease-in-out, color 300ms 0 ease-in-out, opacity 300ms ease-in-out;
+}
+
+#modal-content{
+    background: #5d3684;
+}
+
+#wellcome p {
+    float: right;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.singOut{
+    float: right;
+    margin-right: -100px;
+}
+
